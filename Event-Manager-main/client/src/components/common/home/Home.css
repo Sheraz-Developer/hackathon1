@@ -1,0 +1,25 @@
+.Home {
+    text-align: center;
+}
+
+.Home h1 {
+    background-color: ghostwhite;
+    border-radius: 15px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #017fbe;
+
+}
+
+.Events {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 250px 0 250px;
+}
+
+.Events .Event {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}

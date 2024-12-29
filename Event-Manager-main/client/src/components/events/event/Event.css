@@ -1,0 +1,71 @@
+.Event {
+    width: 30%;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    display: block;
+}
+
+.Event .description {
+    height: 50px;
+    padding: 20px;
+}
+
+.Event img {
+    height: 180px;
+    filter: brightness(60%);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+}
+
+.Event .likes, .buttons {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.Event .likes .blue {
+    color: #00b7ff;
+}
+
+.Event .likes i {
+    width: 20px;
+    height: 20px;
+    background-color: ghostwhite;
+    position: absolute;
+    left: 20px;
+    color: black;
+}
+
+.Event .likes span {
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.Event .buttons .links {
+    width: 50px;
+    position: absolute;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #282c34;
+    border-radius: 3px;
+}
+
+.Event .links:nth-child(1) {
+    right: 100px;
+    background-color: #017fbe;
+    color: ghostwhite;
+}
+
+.Event .links:nth-child(2) {
+    right: 20px;
+    background-color: crimson;
+    color: ghostwhite;
+}
+
+.Event .details:hover {
+    filter: brightness(40%);
+    cursor: pointer;
+}

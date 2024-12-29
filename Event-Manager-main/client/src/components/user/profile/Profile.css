@@ -1,0 +1,61 @@
+.Profile {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.Profile .likedEvents, .createdEvents {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.Profile h1 {
+    background-color: ghostwhite;
+    border-radius: 15px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: #017fbe;
+}
+
+.Profile .Event {
+    width: 70%;
+    height: inherit;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.Profile .Event .buttons {
+    padding-bottom: 40px;
+}
+
+.Profile .profile-data {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 20px 15px 0 15px;
+}
+
+.Profile .profile-data img {
+    width: 100px;
+}
+
+.Profile .profile-data .name {
+    font-weight: bold;
+}
+
+.Profile .profile-data .username {
+    color: #017fbe;
+}
+
+.Profile .profile-data .buttons {
+    display: flex;
+}
+
+.Profile .profile-data .buttons button {
+    height: 40px;
+    margin: 0 10px;
+}
+
